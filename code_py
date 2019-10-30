@@ -28,3 +28,14 @@ for i in lines[:10]:
     }
 print(colour_dic)
 
+
+# Question 3 : Part C
+
+# In[7]:
+
+
+import json
+
+with open('colour_dic.json', 'w') as file:
+    json.dump(colour_dic, file)
+
