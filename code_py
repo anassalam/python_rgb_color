@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# # Question 3 : Part A
+
+# In[5]:
+
+
+lines = list()
+with open('colours.tsv', 'r') as file:
+    for line in file:
+        lines.append(line.strip().split('\t'))
+print(lines)
